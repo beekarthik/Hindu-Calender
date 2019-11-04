@@ -19,6 +19,8 @@ const allPakshams = ["Shukla", "Krishna"]
 
 const rahukaalamStartTimes = [7/8, 1/8, 6/8, 4/8, 5/8, 3/8, 2/8];
 
+const allVasara = ['Aditya', 'Soma', 'Mangala','Budha', 'Guru', 'Shukra', 'Sani'];
+
 // shortcuts for easier to read formulas
 
 var PI   = Math.PI,
@@ -386,13 +388,8 @@ function getRahukaalam(date, lat, long) {
   }
 };
 
-function tithiInfoSummary() {
-var day = new Date();
-var nextTithi = getNextTithiTime(day);
-return (getTithi(day).name + ' until ' + nextTithi.dateTime)
-
+function getVasaram(date) {
+  return allVasara[date.getDay()]+'vaasaram'
 };
 
-var d = new Date();
 
-console.log(getRahukaalam(d, 37.869060, -122.270460));
