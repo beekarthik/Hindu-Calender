@@ -7,6 +7,7 @@ This project calculates various calender values that are relevant in Hinduism. B
 - getNakshatram(date) - calculates [Nakshatram](https://en.wikipedia.org/wiki/Nakshatra)
 - getRahukaalam(date, latitude, longitude) - calculates the start and end time of [Rahukaalam](https://en.wikipedia.org/wiki/Rahukaalam)
 - getPaksham(date) - calculates [Paksham](https://en.wikipedia.org/wiki/Paksha)
+- getVasaram(date) - calculates day of the week 
 
 ### To-Do
 Apart from these basic calender events it would be interesting to also track the solar month system, lunar month system, [Ritu (season)](https://en.wikipedia.org/wiki/Ritu_(Indian_season)), Yoga, and Karana.
